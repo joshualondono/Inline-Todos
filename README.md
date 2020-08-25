@@ -1,3 +1,3 @@
 # Inline-Todos
 
-A TODO editor with inline editing 
+A TODO editor with inline editing using localstorage
