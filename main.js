@@ -41,3 +41,24 @@ function save() {
 localStorage.setItem('todosObject', JSON.stringify(todoObject));
 
 }
+
+//make list function
+const makeList = function(array){
+
+const items = array
+const make = function(){ items.forEach(function (item) {
+
+      const node = document.createElement("p")
+      node.setAttribute("contenteditable", true)
+      node.setAttribute("id", "todo")
+      const textnode = document.createTextNode(item)
+      node.appendChild(textnode)
+      document.getElementById('myTodos').appendChild(node)
+
+    });
+    }
+
+;
+
+return make()
+}
