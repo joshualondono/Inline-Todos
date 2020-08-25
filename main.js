@@ -1,13 +1,13 @@
 const firstRunStorage = function(){
 
 const todoObject = {
-  mon: 'Monday',
-  tues: 'Tuesday',
-  wed: 'Wednesday',
-  thurs: 'Thursday',
-  friday: 'Friday',
-  sat: 'Saturday',
-  sun: 'Sunday'
+  mon: 'Workout twice today',
+  tues: 'Spend time with mom',
+  wed: 'Call someone about resume',
+  thurs: 'Workout today',
+  friday: 'Fast today',
+  sat: 'Rest Today',
+  sun: 'Take the week off next week'
 
 };
 
@@ -63,6 +63,39 @@ const make = function(){ items.forEach(function (item) {
 return make()
 }
 
+//const makeTitle = function(){
+
+//   const todoObject = {
+//     mon: 'Monday',
+//     tues: 'Tuesday',
+//     wed: 'Wednesday',
+//     thurs: 'Thursday',
+//     friday: 'Friday',
+//     sat: 'Saturday',
+//     sun: 'Sunday'
+//
+//   };
+//
+//   const array = Object.values(todoObject)
+//
+// const items = array
+// const make = function(){ items.forEach(function (item) {
+//
+//       const node = document.createElement("p1")
+//       node.setAttribute("id", "title")
+//       const textnode = document.createTextNode(item)
+//       node.appendChild(textnode)
+//       document.getElementById('myTodosTitle').appendChild(node)
+//
+//     });
+//     }
+//
+// ;
+//
+// return make()
+// }
+
+
 function style() {
   let x, i;
   x = document.querySelectorAll("p");
@@ -74,6 +107,9 @@ function style() {
 }
 
 
+
+
 //onstart run
 makeList(storedArray())
+// makeTitle()
 style()
