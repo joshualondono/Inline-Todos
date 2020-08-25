@@ -1,0 +1,34 @@
+button {
+  background-color: #f7f7f5;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p {
+  background-color: #f7f7f5;
+  border: none;
+  color: black;
+  display: flex;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+h {
+  background-color: #f7f7f5;
+  border: none;
+  color: black;
+  display: flex;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

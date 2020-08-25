@@ -62,3 +62,18 @@ const make = function(){ items.forEach(function (item) {
 
 return make()
 }
+
+function style() {
+  let x, i;
+  x = document.querySelectorAll("p");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = '#f7f7f5';
+    x[i].style
+
+  }
+}
+
+
+//onstart run
+makeList(storedArray())
+style()
